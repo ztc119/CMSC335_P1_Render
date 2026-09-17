@@ -1,0 +1,18 @@
+:root {
+    --text-size: 18px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    font-family: "Trirong", serif;
+    font-size: var(--text-size);
+    box-sizing: border-box;
+    padding: 20px;
+    width: 90%;
+    height: 10%;
+    margin-bottom: 20px;
+}
